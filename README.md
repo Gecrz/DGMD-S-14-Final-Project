@@ -52,28 +52,3 @@ Consider an additional Siamese model (July 24)
 Do this if there is a class imbalance or small number of images overall
 Generate evaluation metrics (July 28)
 Possible metrics include F1 score and confusion matrix
-
-#### Division of Labor:
-
-Yaseen:
-Importing/cleaning data:
- grouping the data
- creating a subset of the data
-Creating one transfer learning model
-Completing project check in
-Amreen: 
-Sourcing data
-Creating the initial baseline CNN classifier:
-tuning hyperparameters (with Dongshen)
-Building a Siamese model, if we decide to do this based on class balancing (with George)
-Finalizing report and deliverable
-Dongshen:
-Creating train and test sets
-Helping tune hyperparameters for baseline CNN (with Amreen)
-Creating one transfer learning model
-Organizing code for final deliverable
-George:
-Creating one transfer learning model
-Helping build Siamese model (with Amreen)
-Generating evaluation metrics to compare all models
-Organizing final report
