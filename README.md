@@ -10,6 +10,7 @@ Breast cancer is a significant global health concern, necessitating the developm
 Overall, our CNN architecture is designed to learn discriminative features from medical images of tumors and make accurate predictions regarding tumor malignancy. It employs convolutional layers for feature extraction, dropout for regularization, and sigmoid activation for binary classification. By combining these techniques, the model aims to achieve robust performance and generalization on unseen data, enabling accurate identification of malignant and benign tumors from medical images.
 
 ### How to use the code
+Final notebook:  https://github.com/Gecrz/DGMD-S-14-Final-Project/blob/main/Final%20Model/Computer%20Vision%20Model%20for%20Breast%20Cancer.ipynb
 
 There are several steps in the modeling process: Data ingestion, data processing, model training, validation and predictions. 
 
