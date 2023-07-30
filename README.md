@@ -43,6 +43,8 @@ The model's performance is evaluated on the validation set, and the training and
 The model was trained for 15 epochs using a binary cross-entropy loss function and the Adam optimizer. During training, the training accuracy increased from approximately 73.82% in the first epoch to around 88.19% in the final epoch. The validation accuracy, on the other hand, showed fluctuating behavior, starting at 60% and reaching 96.52% in the last epoch, due to an initial low learning rate. The validation loss decreased over the epochs, indicating that the model improved its generalization capabilities.
 
 Classification Report:
+
+
               precision    recall  f1-score   support
 
            0       0.96      0.69      0.80       103
