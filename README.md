@@ -13,15 +13,15 @@ Overall, our CNN architecture is designed to learn discriminative features from 
 
 Our repository is organized as follows:
 
-# Final Model:
+##### Final Model:
   Computer_Vision_Model_for_Breast_Cancer.ipynb: Our final model for submission; this runs completely and independently of any other files
   Preprocessing.py: all of our data preprocessing steps, separated for ease of viewing
   Train.py: our model, separated for ease of viewing
 
-# Project Check In:
+##### Project Check In:
   Baseline Model.ipynb: our initial baseline model
 
-# Unsuccessful Models (we chose not to proceed with these models because they produced a lower initial accuracy than our baseline model):
+##### Unsuccessful Models (we chose not to proceed with these models because they produced a lower initial accuracy than our baseline model):
   Transfer learning model.ipynb: our initial transfer learning model 
   Siamese_Model.ipynb: attempted due to class imbalance
 
@@ -45,7 +45,7 @@ Data Preprocessing and Augmentation: The code uses ImageDataGenerator from Keras
 
 ##### Sample Images
 
-<img width="782" alt="Screen Shot 2023-07-30 at 2 15 29 PM" src="https://github.com/Gecrz/DGMD-S-14-Final-Project/assets/59938825/ee3060a4-5199-454b-b742-4fa03c989c11">
+<img width="783" alt="Screen Shot 2023-07-30 at 4 22 30 PM" src="https://github.com/Gecrz/DGMD-S-14-Final-Project/assets/59938825/6494cc5c-c52f-42dd-9942-e3a78f07ca96">
 
 ##### Model Architecture
 
