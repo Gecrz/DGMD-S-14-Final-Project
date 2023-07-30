@@ -28,7 +28,7 @@ Data Preprocessing and Augmentation: The code uses ImageDataGenerator from Keras
 
 ##### Model Architecture
 
-We have defined and designed a convolutional neural network (CNN) model using the Sequential API from Keras. The model consists of several convolutional layers, batch normalization layers, dropout layers, and dense layers. The final layer uses the sigmoid activation function to produce the binary classification output.
+We were able to optimize our baseline model by defining and designing a convolutional neural network (CNN) model using the Sequential API from Keras. The model consists of several convolutional layers, batch normalization layers, dropout layers, and dense layers. The final layer uses the sigmoid activation function to produce the binary classification output.
 
 ##### Model Training
 
