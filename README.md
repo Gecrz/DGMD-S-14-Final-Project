@@ -19,7 +19,7 @@ The necessary libraries for building and training the model need to be imported,
 
 ##### Data Ingestion
 
-Download the dataset (BreaKHis_v1.tar.gz) using the requests library. The dataset contains histopathological images of breast tissue. The downloaded dataset is then extracted to obtain 400x PNG image files.
+Download the dataset (BreaKHis_v1.tar.gz) using the requests library. The dataset contains histopathological images of breast tissue. The downloaded dataset is then extracted to obtain 400x PNG image files. Link to the dataset: https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/
 
 ##### Data Preparation and Visualization
 
