@@ -42,7 +42,18 @@ The model's performance is evaluated on the validation set, and the training and
 
 The model was trained for 15 epochs using a binary cross-entropy loss function and the Adam optimizer. During training, the training accuracy increased from approximately 73.82% in the first epoch to around 88.19% in the final epoch. The validation accuracy, on the other hand, showed fluctuating behavior, starting at 60% and reaching 96.52% in the last epoch, due to an initial low learning rate. The validation loss decreased over the epochs, indicating that the model improved its generalization capabilities.
 
-After training, the model was evaluated on the test set, which contained 223 samples. The classification report shows that the model achieved an overall accuracy of 84% on the test set. The precision for identifying malignant tumors was 0.79, while the recall (sensitivity) was 0.97, indicating that the model is good at correctly identifying malignant cases. For benign tumors, the precision was 0.96, and the recall was 0.69, showing that the model has higher accuracy in identifying benign cases but may classify some negative cases as positive. 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.69      0.80       103
+           1       0.79      0.97      0.87       120
+
+    accuracy                           0.84       223
+   macro avg       0.87      0.83      0.84       223
+weighted avg       0.87      0.84      0.84       223
+
+
+After training, the model was evaluated on the test set, which contained 223 samples. The classification report above shows that the model achieved an overall accuracy of 84% on the test set. The precision for identifying malignant tumors was 0.79, while the recall (sensitivity) was 0.97, indicating that the model is good at correctly identifying malignant cases. For benign tumors, the precision was 0.96, and the recall was 0.69, showing that the model has higher accuracy in identifying benign cases but may classify some negative cases as positive. 
 
 The model's performance was further evaluated using the ROC-AUC score, which measures the model's ability to distinguish between the two classes. The model achieved an ROC-AUC score of 0.9312, indicating good discrimination power between malignant and benign cases.
 
