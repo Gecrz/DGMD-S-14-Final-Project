@@ -50,6 +50,10 @@ The model's performance was further evaluated using the ROC-AUC score, which mea
 
 In conclusion, the trained model achieved a reasonable level of accuracy in classifying malignant and benign tumors, with a satisfactory ROC-AUC score. However, there is room for improvement, especially in improving the recall for benign cases. The model did great identifying positive cases, which is ideal in our case, as missing malignant tumors can have significant consequences in medical applications. Further fine-tuning, addressing class imbalances or exploring more complex model architectures may lead to improved results.
 
+### Dependencies
+
+The model was trained using Google Colab and Python Programming Language. 
+
 
 
 
