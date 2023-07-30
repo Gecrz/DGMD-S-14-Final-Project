@@ -15,7 +15,7 @@ There are several steps in the modeling process: Data ingestion, data processing
 
 ##### Import Required Libraries
 
-The necessary libraries for building and training the model are imported, including TensorFlow, Keras, NumPy, Pandas, Matplotlib, scikit-learn, requests, tqdm, etc.
+The necessary libraries for building and training the model need to be imported, including TensorFlow, Keras, NumPy, Pandas, Matplotlib, scikit-learn, requests, and tqdm.
 
 ##### Data Ingestion
 
@@ -28,7 +28,7 @@ Data Preprocessing and Augmentation: The code uses ImageDataGenerator from Keras
 
 ##### Model Architecture
 
-We have defined a convolutional neural network (CNN) model using the Sequential API from Keras. The model consists of several convolutional layers, batch normalization layers, dropout layers, and dense layers. The final layer uses the sigmoid activation function to produce the binary classification output.
+We have defined and designed a convolutional neural network (CNN) model using the Sequential API from Keras. The model consists of several convolutional layers, batch normalization layers, dropout layers, and dense layers. The final layer uses the sigmoid activation function to produce the binary classification output.
 
 ##### Model Training
 
