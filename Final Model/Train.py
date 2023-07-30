@@ -1,4 +1,4 @@
-# Define the standard CNN model
+# Define the standard CNN model 
 n_filters = 12  # Base number of convolutional filters
 
 def make_standard_classifier(n_outputs=1, dropout_rate=0.2):
