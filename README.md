@@ -51,13 +51,10 @@ Classification Report:
            1       0.79      0.97      0.87       120
 
     accuracy                           0.84       223
-   
-   
-   macro avg       0.87      0.83      0.84       223
 
-   
-weighted avg       0.87      0.84      0.84       223
+    macro avg      0.87      0.83      0.84       223
 
+    weighted avg   0.87      0.84      0.84       223
 
 After training, the model was evaluated on the test set, which contained 223 samples. The classification report above shows that the model achieved an overall accuracy of 84% on the test set. The precision for identifying malignant tumors was 0.79, while the recall (sensitivity) was 0.97, indicating that the model is good at correctly identifying malignant cases. For benign tumors, the precision was 0.96, and the recall was 0.69, showing that the model has higher accuracy in identifying benign cases but may classify some negative cases as positive. 
 
@@ -70,9 +67,5 @@ In conclusion, the trained model achieved a reasonable level of accuracy in clas
 ### Dependencies
 
 The model was trained using Google Colab and Python Programming Language. 
-
-
-
-
 
 
