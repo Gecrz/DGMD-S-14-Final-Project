@@ -54,6 +54,8 @@ Classification Report:
    
    
    macro avg       0.87      0.83      0.84       223
+
+   
 weighted avg       0.87      0.84      0.84       223
 
 
