@@ -1,16 +1,15 @@
 # DGMD-S-14-Final-Project
 
-## Project Title: Image Classification Modeling for Identification of breast cancer using Histopathology Imagery
+## Project Title: Image Classification Modeling for Identification of Benign vs Malignant breast cancer using Histopathology Imagery
 
 ## Group Members: Yaseen Khan Mohmand, Amreen Khureshi, Dongshen Peng, George Cruz
 
 ### Type of Project: Engineering 
 
-Summary: Breast cancer is a significant global health concern, necessitating the development of accurate and efficient diagnostic tools. In this project, we propose a novel image classification modeling approach for the identification of breast cancer using histopathology imagery. The purpose of this project is to utilize deep learning techniques to classify and analyze histopathology images, thereby aiding in the automated early cancer detection and precision diagnosis. 
+Breast cancer is a significant global health concern, necessitating the development of accurate and efficient diagnostic tools. In this project, we propose a novel image classification modeling approach for the identification of Benign vs Malignant breast cancer using histopathology imagery. The purpose of this project is to utilize advanced computer vision techniques to classify and analyze histopathology images. 
 
-### Level: Graduate
 
-#### Introduction: 
+#### Summary
 
 Breast cancer is the most common type of cancer among women worldwide. Upwards of 2 million women were diagnosed with breast cancer in 2020, in the same year 684,996 deaths were recorded due to breast cancer. When detected and treated early, breast cancer has a high survival rate. There are multiple methods for detecting breast cancer, such as mammograms, Ultrasounds, MRIs and Biopsies. For the purposes of our project we will be focusing on improving detection of breast cancer using deep learning techniques for viewing microscopic images of biopsies.
 In the Biopsy procedure a small sample of breast tissue is taken and then examined by a trained pathologist under a microscope. It provides vital information about the nature of suspicious lumps or abnormalities discovered through other screening methods. Biopsies provide information on stage of the cancer, whether it’s benign or malignant and once the treatment is provided whether there is disease still left. 
