@@ -36,18 +36,3 @@ Deep Learning to Improve Breast Cancer Detection on Screening Mammography:This r
 Breast cancer detection using deep learning: Datasets, methods, and challenges ahead: The paper reviews previous studies that have utilized machine learning, deep learning, and deep reinforcement learning techniques for breast cancer classification and detection. It also discusses the availability of publicly accessible datasets for different imaging modalities, which can facilitate future research in the field. The authors emphasize the need for external validations of AI models to ensure their reliability and efficacy as clinical decision-making tools. The paper concludes with a critical discussion on the challenges and prospects for future research in breast cancer detection using deep learning, highlighting the limitations of current approaches.
 
 
-#### Methodology:
-
-Sourcing data from Kaggle (July 5)
-Cleaning and importing the data (July 10)
-Determine how we want to prep the data (do we want to group the images?)
-Determine if we want to use all the images, or a smaller subset
-Create train and test sets (July 13)
-Create a baseline CNN classifier (July 17)
-Try various loss functions, activation functions, and epochs
-Use transfer learning methods to generate 2-3 models (July 21)
-Possible models include: MobileNetV1, ResNet50
-Consider an additional Siamese model (July 24)
-Do this if there is a class imbalance or small number of images overall
-Generate evaluation metrics (July 28)
-Possible metrics include F1 score and confusion matrix
